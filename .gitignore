@@ -1,0 +1,14 @@
+*.pyc
+*.pyo
+*.egg-info
+.idea
+__pycache__
+bin
+build
+release
+.DS_Store
+*.log
+/celerybeat-schedule
+temp
+celerybeat-schedule.db
+venv*
