@@ -1,3 +1,6 @@
+import redis
+
+
 def get_db_uri(dbinfo):
     ENGINE = dbinfo.get("ENGINE") or 'mysql'
     DRIVER = dbinfo.get("DRIVER") or "pymysql"
@@ -16,9 +19,18 @@ class Config:
 
     TESTING = False
 
-    SECRET_KEY = "newboys"
+    SECRET_KEY = "XHSOI*Y9dfs9cshd9"
 
     SQLALCHEMY_TRACK_MODIFICATIONS = False
+
+    REDIS_HOST = "127.0.0.1"
+    REDIS_PORT = 6379
+
+    # flask-session配置
+    SESSION_TYPE = "redis"
+    SESSION_REDIS = redis.StrictRedis(host=REDIS_HOST, port=REDIS_PORT)
+    SESSION_USE_SIGNER = True  # 对cookie中session_id进行隐藏处理
+    PERMANENT_SESSION_LIFETIME = 86400  # session数据的有效期，单位秒
 
 
 class DevelopConfig(Config):
@@ -32,7 +44,7 @@ class DevelopConfig(Config):
         "PASSWORD": "hyjkj1009",
         "HOST": "localhost",
         "PORT": "3306",
-        "NAME": "fisher"
+        "NAME": "ihome_python04"
     }
 
     SQLALCHEMY_DATABASE_URI = get_db_uri(DATABASE)
@@ -59,7 +71,7 @@ class TestingConfig(Config):
         "PASSWORD": "hyjkj1009",
         "HOST": "localhost",
         "PORT": "3306",
-        "NAME": "fisher"
+        "NAME": "ihome_python04"
     }
 
     SQLALCHEMY_DATABASE_URI = get_db_uri(DATABASE)
@@ -74,7 +86,7 @@ class StagingConfig(Config):
         "PASSWORD": "hyjkj1009",
         "HOST": "localhost",
         "PORT": "3306",
-        "NAME": "fisher"
+        "NAME": "ihome_python04"
     }
 
     SQLALCHEMY_DATABASE_URI = get_db_uri(DATABASE)
@@ -89,7 +101,7 @@ class ProductConfig(Config):
         "PASSWORD": "hyjkj1009",
         "HOST": "localhost",
         "PORT": "3306",
-        "NAME": "fisher"
+        "NAME": "ihome_python04"
     }
 
     SQLALCHEMY_DATABASE_URI = get_db_uri(DATABASE)
