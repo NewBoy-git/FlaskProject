@@ -17,4 +17,5 @@ def init_ext(app):
     db.init_app(app)
     migrate.init_app(app=app, db=db)
     mail.init_app(app=app)
-    cache.init_app(app=app)
+    # cache.init_app(app=app)
+
