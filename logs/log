@@ -1,0 +1,41 @@
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 264-925-158
+INFO _internal.py:122 127.0.0.1 - - [18/Dec/2019 20:31:32] "GET / HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [18/Dec/2019 20:31:43] "GET /api/v1.0/index HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [18/Dec/2019 20:31:43] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:122  * Detected change in '/Users/honglin/Desktop/study/FlaskProject/ihome/api_1_0/__init__.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 264-925-158
+INFO _internal.py:122 127.0.0.1 - - [18/Dec/2019 20:32:26] "GET /api/v1.0/index HTTP/1.1" 404 -
+INFO _internal.py:122  * Detected change in '/Users/honglin/Desktop/study/FlaskProject/ihome/api_1_0/index.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 264-925-158
+INFO _internal.py:122 127.0.0.1 - - [18/Dec/2019 20:34:09] "GET /api/v1.0/index HTTP/1.1" 404 -
+INFO _internal.py:122  * Detected change in '/Users/honglin/Desktop/study/FlaskProject/ihome/api_1_0/index.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 264-925-158
+INFO _internal.py:122 127.0.0.1 - - [18/Dec/2019 20:34:36] "GET /api/v1.0/index HTTP/1.1" 404 -
+INFO _internal.py:122  * Detected change in '/Users/honglin/Desktop/study/FlaskProject/ihome/api_1_0/index.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 264-925-158
+INFO _internal.py:122 127.0.0.1 - - [18/Dec/2019 20:35:43] "GET /api/v1.0/index HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/Users/honglin/Desktop/study/FlaskProject/ihome/api_1_0/index.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 264-925-158
+INFO _internal.py:122  * Detected change in '/Users/honglin/Desktop/study/FlaskProject/manager.py', reloading
+INFO _internal.py:122  * Restarting with stat
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 264-925-158
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 264-925-158
+INFO _internal.py:122 127.0.0.1 - - [18/Dec/2019 20:41:21] "GET /api/v1.0/index HTTP/1.1" 200 -
