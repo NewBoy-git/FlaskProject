@@ -1,11 +1,12 @@
-from flask_migrate import MigrateCommand
+from flask_migrate import Migrate,MigrateCommand
 from flask_script import Manager
 
-from App import create_app
+from ihome import create_app, db
 
-app = create_app()
+app = create_app('develop')
 
 manager = Manager(app)
+Migrate(app,db)
 manager.add_command("db", MigrateCommand)
 
 

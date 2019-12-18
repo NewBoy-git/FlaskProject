@@ -1,2 +1,0 @@
-from ext import db
-
